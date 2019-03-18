@@ -1,2 +1,10 @@
+
 # nsl-jekyll-theme-newskylabs
-NewSkyLabs Jekyll theme
+
+NewSkyLabs 
+[Jekyll](http://jekyllrb.com/)
+theme based on 
+[Bootstrap ](http://getbootstrap.com/)
+and 
+[Sass](http://sass-lang.com/).
+
