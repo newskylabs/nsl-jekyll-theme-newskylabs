@@ -1,0 +1,64 @@
+---
+---
+
+// =========================================================
+// Variable overrides
+// ---------------------------------------------------------
+// Bootstrap variable overrides in css/custom/_variables.scss 
+// They have to be my imported before the bootstrap 'variables' file
+// css/bootstrap/_variables.scss which is imported from
+// css/bootstrap/bootstrap.scss
+// ---------------------------------------------------------
+
+// $primary: #c51236; // red
+$primary: #c00000; // red
+$info:    #7f7f7f; // gray
+
+// Code section headers
+$code-heading-background: #dededc; // light gray
+$code-text-color:         #444444; // dark gray
+
+// =========================================================
+// Include all of Bootstrap
+// ---------------------------------------------------------
+
+@import 'bootstrap/bootstrap';
+
+// =========================================================
+// Specifying a max width for the text column
+// and making it centered
+// ---------------------------------------------------------
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px; /* or 950px */
+}
+
+// =========================================================
+// Responsive Type Scale
+// ---------------------------------------------------------
+
+@import 'custom/responsive_type_scale';
+
+// =========================================================
+// Cusomizations
+// ---------------------------------------------------------
+
+@import 'custom/text';
+@import 'custom/header';
+@import 'custom/navigation';
+@import 'custom/banner';
+@import 'custom/social_links';
+@import 'custom/posts';
+@import 'custom/pagination';
+@import 'custom/post';
+@import 'custom/archive';
+
+// Styling the code sections
+@import 'custom/code_sections';
+
+// =========================================================
+// =========================================================
+
+// fin

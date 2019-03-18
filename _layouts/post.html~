@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- post layout begin -->
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {% include banner.html %}
+    {% include post.html %}
+    {% include footer.html %}
+  </body>
+</html>
+<!-- post layout end -->

@@ -1,0 +1,19 @@
+<!-- includes archive begin -->
+<section id="archive">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-primary">Archive</h2>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+	      <span>{{ post.date | date: "%Y / %m / %d" }}</span> -
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- includes archive end -->

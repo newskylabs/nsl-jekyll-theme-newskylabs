@@ -1,0 +1,25 @@
+// Navigation
+
+.navbar{
+  opacity: 0.8;
+  background: $white;
+
+  .nav-item{
+    padding-left: 20px;
+  }
+}
+
+.nav-link {
+  color: $info !important;
+
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.show > .nav-link,
+.active > .nav-link,
+.nav-link.show,
+.nav-link.active { color: $primary !important; }
+
+// fin.

@@ -1,0 +1,111 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+<!-- about page begin -->
+<section id="about" class="text-center py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <!-- <img src="/img/dietrich.png" alt="" class="img-fluid rounded-circle w-50 mb-3"> -->
+            <h3>
+	      <a href="{{ site.author.homepage }}">
+		{{ site.author.name }}{{ site.author.title }}
+	      </a>
+	    </h3>
+            <h5 class="text-muted">{{ site.author.about }}</h5>
+            <p>
+	      {{ site.author.description }}
+            </p>
+            <div class="d-flex flex-row justify-content-center social-links">
+              <div class="p-4">
+                <a href="{{ site.author.message }}">
+		  <i class="fa fa-envelope fa-2x" ></i>
+		</a>
+              </div>
+              <div class="p-4">
+                <a target="_blank" href="{{ site.author.linkedin }}">
+		  <i class="fab fa-linkedin fa-2x"></i>
+		</a>
+              </div>
+              <div class="p-4">
+                <a target="_blank" href="{{ site.author.github }}">
+		  <i class="fab fa-github fa-2x"></i>
+		</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <!-- <img src="/img/logo.png" alt="" class="img-fluid rounded-circle w-50 mb-3"> -->
+            <h3>
+	      <a href="{{ site.baseurl }}/">
+		{{ site.title }}
+	      </a>
+	    </h3>
+            <h5 class="text-muted">{{ site.about }}</h5>
+	    <!--
+		<span class="social-links">
+		  <a target="_blank" href="https://twitter.com/NewSkyLabs">
+		    <i class="fab fa-twitter fa-2x"></i>
+		  </a>
+		</span>
+		-->
+            <p class="pt-5a">
+	      {{ site.description }}
+            </p>
+            <div class="d-flex flex-row justify-content-center social-links">
+	      <div class="p-4">
+                <a href="{{ site.message }}">
+		  <i class="fa fa-envelope fa-2x" ></i>
+		</a>
+	      </div>
+	      <!--
+	      <div class="p-4">
+                <a target="_blank" href="{{ site.linkedin }}">
+		  <i class="fab fa-linkedin fa-2x"></i>
+		</a>
+	      </div>
+	      -->
+	      <div class="p-4">
+                <a target="_blank" href="{{ site.github }}">
+		  <i class="fab fa-github fa-2x"></i>
+		</a>
+	      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p>
+		This site is static and has been generated with
+		<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+		It is proudly hosted by
+		<a href="https://github.com/" target="_blank">github</a>.
+		Styling has been done with the help of 
+		<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+		and
+		<a href="http://sass-lang.com/" target="_blank">Sass</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about page end -->

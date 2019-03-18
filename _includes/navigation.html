@@ -1,0 +1,25 @@
+<!-- navigation begin -->
+<nav class="navbar navbar-expand-md navbar-light py-2">
+  <div class="container">
+    <a href="{{ site.baseurl }}/" class="navbar-brand">
+      <!-- <h3 class="d-inline align-left text-primary">{{ site.title }}</h3>  -->
+      <span class="d-inline align-left text-primary s4">{{ site.title }}</span>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+	{% for item in site.data.navigation %}
+        <li class="nav-item s4">
+          <a href="{{ site.baseurl }}{{ item.link }}" 
+	     class="nav-link {% if page.url == item.link %} active {% endif %}">
+	    {{ item.name }}
+	  </a>
+        </li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navigation end -->

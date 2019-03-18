@@ -1,0 +1,51 @@
+# Site settings
+title: NewSkyLabs
+about: AI / Deep Learning R&D
+description: >
+  Solving problems with AI and Deep Learning.
+url:
+message: http://dietrich.formgames.org/email/
+linkedin: https://www.linkedin.com/in/dietrich-bollmann
+github: https://github.com/newskylabs
+twitter: someTwitterUser
+  
+author: 
+  name: Dietrich Bollmann
+  title: ', PhD'
+  # homepage: http://dietrich.formgames.org/
+  homepage: https://www.linkedin.com/in/dietrich-bollmann
+  message: http://dietrich.formgames.org/email/
+  about: AI / Deep Learning R&D
+  description: >
+    I am a computer scientist 
+    enjoying to apply computers to 
+    subjects outside of their typical range:
+    language, music, architectural design...
+  linkedin: https://www.linkedin.com/in/dietrich-bollmann
+  github: https://github.com/newskylabs
+  twitter: someTwitterUser
+
+# Layouts defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Social icons
+show_social_icons: true
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+# plugins
+plugins: [jekyll-paginate]
+paginate: 3
+
