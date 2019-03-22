@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignore emacs tmp files
+*~
+
+# Ignore sass cache
+.sass-cache
+
+# Ignore the generated _site files
+_site
+
+# fin.
